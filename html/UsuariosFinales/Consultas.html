@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Universidad de Colima</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-------------------CSS y Boostrap------------------->
+        <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="/CSS/fontello.css">
+        <link rel="stylesheet" href="/CSS/estilos.css">
+        <link rel="stylesheet" href="/CSS/consultas.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="contenedor">
+                <h1>Sistema gestor de mesa de ayuda</h1>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="#">Consulta</a>
+                    
+                    <div class="pull-right">
+                        <ul class="nav pull-right">
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenido @correo <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="divider"></li>
+                                    <li><a href="../Login.html"><i class="icon-off"></i> Cerrar sesión</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="banner">
+                <img src="/imagenes/banner.PNG">
+            </section>
+            
+            <section id="Consultas">
+                <div class="contenedor">
+                    <h2 class="center">Consultas</h2>
+                </div>
+            </section>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <form id="custom-search-form" class="form-search form-horizontal pull-right">
+                            <div class="input-append span12">
+                                <input type="text" class="search-query" placeholder="Número de ticket">
+                                <button type="submit" class="btn"><i class="icon-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="container">
+                <div class="row">
+                    <div class="span5">
+                        <table class="table table-striped table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>Account(No. Cuenta)</th>
+                                    <th>Fecha</th>
+                                    <th>Descripción</th>
+                                    <th>Status</th>                                          
+                                </tr>
+                            </thead>   
+                            <tbody>
+                                <tr>
+                                    <td>Nocuenta</td>
+                                    <td>Fecha</td>
+                                    <td>Descripción</td>
+                                    <td><span class="label label-success">Pendiente</span>
+                                    </td>                                       
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="contacto" class="contenedor2">
+                <p>Derechos Reservados 2013-2017 Universidad de Colima &copy; 2012</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>

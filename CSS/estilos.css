@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url(../CSS/menu.css);
+@import url(/CSS/menu.css);
 
 *
 {
@@ -59,7 +59,8 @@ header .contenedor
     color: #14235f;
 }
 
-#Inicio_sesion,#Registro ,#Consultas,#Atencion_Usuarios, #AU_CrearTicket, #AU_ComentarTicket
+#Inicio_sesion,#Registro ,#Consultas,#Atencion_Usuarios, #AU_CrearTicket, #AU_ComentarTicket, #AU_EvaluarTicket,
+#AU_CerrarTicket
 {
     text-align: center;
     color: #14235f;

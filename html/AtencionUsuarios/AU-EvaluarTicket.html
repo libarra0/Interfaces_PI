@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-------------------CSS y Boostrap------------------->
-        <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-        <link rel="stylesheet" href="../CSS/fontello.css">
-        <link rel="stylesheet" href="../CSS/estilos.css">
-        <link rel="stylesheet" href="../CSS/au-tickets.css">
+        <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="/CSS/fontello.css">
+        <link rel="stylesheet" href="/CSS/estilos.css">
+        <link rel="stylesheet" href="/CSS/au-tickets.css">
     </head>
 
     <body>
@@ -20,29 +20,29 @@
                 <label class="icon-menu" for="menu-bar"></label>
                 <nav class="menu">
                     
+                    <a href=/html/AtencionUsuarios/AtencionUsuarios.html>Inicio</a>
                     <div class="pull-right">
                         <ul class="nav pull-right">
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Tickets <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="divider"></li>
-                                    <li><a href="#"><i class="icon-off"></i>Crear</a></li>
-                                    <li><a href="../html/AU-ComentarTicket.html"><i class="icon-off"></i>Comentar</a></li>
+                                    <li><a href="../AtencionUsuarios/AU-CrearTicket.html"><i class="icon-off"></i>Crear</a></li>
+                                    <li><a href="../AtencionUsuarios/AU-ComentarTicket.html"><i class="icon-off"></i>Comentar</a></li>
                                     <li><a href="#"><i class="icon-off"></i>Evaluar</a></li>
-                                    <li><a href="#"><i class="icon-off"></i>Cerrar</a></li>
+                                    <li><a href="../AtencionUsuarios/AU-CerrarTicket.html"><i class="icon-off"></i>Cerrar</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                     
-                    <a href="#">Obtener información</a>
-                    <a href="#">Vincular</a>
+                    <a href="../AtencionUsuarios/AU-AsignarTicket.html">Asignar</a>
                     
                     <div class="pull-right">
                         <ul class="nav pull-right">
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenido @correo <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="divider"></li>
-                                    <li><a href="../html/Login.html"><i class="icon-off"></i> Cerrar sesión</a></li>
+                                    <li><a href="/html/Login.html"><i class="icon-off"></i> Cerrar sesión</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -52,12 +52,12 @@
         </header>
         <main>
             <section id="banner">
-                <img src="../imagenes/banner.PNG">
+                <img src="/imagenes/banner.PNG">
             </section>
             
-            <section id="AU_CrearTicket">
+            <section id="AU_EvaluarTicket">
                 <div class="contenedor">
-                    <h2 class="center">Crear Ticket</h2>
+                    <h2 class="center">Evaluar Ticket</h2>
                 </div>
             </section>
             
@@ -69,7 +69,14 @@
                         </h1>
                         <label>
                             <span>No ticket :</span>
-                            <input id="name" type="text" name="name" placeholder="Campo que se llena solo" />
+                            <section id="No-ticket">
+                                <div class="col-md-8">
+                                    <select class="form-control" tabindex="-1" aria-hidden="true">
+                                        <option active>Seleccione No ticket</option>
+                                    </select>
+                                </div>
+                            </section>
+                            
                         </label>
                         
                         <label>
@@ -79,13 +86,7 @@
    
                         <label>
                             <span>Dependencia Universitaria :</span>
-                            <section id="dependencias">
-                                <div class="col-md-8">
-                                    <select class="form-control" tabindex="-1" aria-hidden="true">
-                                        <option active>Seleccione la dependencia</option>
-                                    </select>
-                                </div>
-                            </section>
+                            <input id="name" type="text" name="name" placeholder="Escriba la dependencia" />
                         </label>
     
                         <label>
@@ -93,13 +94,13 @@
                         </label>  
     
                         <label>
-                            <span>Descripción :</span>
-                            <textarea id="message" name="message" placeholder="Escriba la descripción"></textarea>
+                            <span>Evaluación :</span>
+                            <textarea id="message" name="message" placeholder="Escriba la evaluación"></textarea>
                         </label>
 
                         <label>
                             <span> </span>
-                            <input type="button" class="button" value="Crear" />
+                            <input type="button" class="button" value="Evaluar" />
                         </label>    
                     </form>
                 </div>
@@ -113,6 +114,6 @@
         </footer>
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="../js/bootstrap.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
     </body>
 </html>

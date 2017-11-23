@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Universidad de Colima</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-------------------CSS y Boostrap------------------->
+        <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="/CSS/fontello.css">
+        <link rel="stylesheet" href="/CSS/estilos.css">
+        <link rel="stylesheet" href="/CSS/au-tickets.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="contenedor">
+                <h1>Sistema gestor de mesa de ayuda</h1>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    
+                    <a href=/html/AtencionUsuarios/AtencionUsuarios.html>Inicio</a>
+                    <div class="pull-right">
+                        <ul class="nav pull-right">
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Tickets <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="divider"></li>
+                                    <li><a href="../AtencionUsuarios/AU-CrearTicket.html"><i class="icon-off"></i>Crear</a></li>
+                                    <li><a href="../AtencionUsuarios/AU-ComentarTicket.html"><i class="icon-off"></i>Comentar</a></li>
+                                    <li><a href="#"><i class="icon-off"></i>Evaluar</a></li>
+                                    <li><a href="../AtencionUsuarios/AU-CerrarTicket.html"><i class="icon-off"></i>Cerrar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#">Asignar</a>
+                    
+                    <div class="pull-right">
+                        <ul class="nav pull-right">
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenido @correo <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="divider"></li>
+                                    <li><a href="/html/Login.html"><i class="icon-off"></i> Cerrar sesión</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="banner">
+                <img src="/imagenes/banner.PNG">
+            </section>
+            
+            <section id="AU_EvaluarTicket">
+                <div class="contenedor">
+                    <h2 class="center">Evaluar Ticket</h2>
+                </div>
+            </section>
+            
+            <div class="container">
+                <div class="row">
+                    <form action="" method="post" class="smart-green">
+                        <h1>Sistema de soporte de tickets
+                            <span>Por favor complete todos los textos en los campos.</span>
+                        </h1>
+                        <label>
+                            <span>No ticket :</span>
+                            <section id="No-ticket">
+                                <div class="col-md-8">
+                                    <select class="form-control" tabindex="-1" aria-hidden="true">
+                                        <option active>Seleccione No ticket</option>
+                                    </select>
+                                </div>
+                            </section>
+                            
+                        </label>
+                        
+                        <label>
+                            <span>No.Cuenta/Trabajador :</span>
+                            <input id="name" type="text" name="name" placeholder="Escriba el No.Cuenta/Trabajador" />
+                        </label>
+   
+                        <label>
+                            <span>Dependencia Universitaria :</span>
+                            <input id="name" type="text" name="name" placeholder="Escriba la dependencia" />
+                        </label>
+                        
+                        <label>
+                            <span>Motivo :</span><input id="Subject" type="text" name="Subject" placeholder="Escriba el motivo" />
+                        </label>  
+    
+                        <label>
+                            <span>Evaluación :</span>
+                            <textarea id="message" name="message" placeholder="Escriba la evaluación"></textarea>
+                        </label>
+
+                        <label>
+                            <span>Especialista :</span>
+                            <section id="No-ticket">
+                                <div class="col-md-8">
+                                    <select class="form-control" tabindex="-1" aria-hidden="true">
+                                        <option active>Escoja un especialista</option>
+                                    </select>
+                                </div>
+                            </section>    
+                        </label>
+                        
+                        <label>
+                            <span> </span>
+                            <input type="button" class="button" value="Asignar" />
+                        </label>    
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="contacto" class="contenedor1">
+                <p>Derechos Reservados 2013-2017 Universidad de Colima &copy; 2012</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
