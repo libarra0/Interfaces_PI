@@ -54,24 +54,12 @@ header .contenedor
     height: 100;
 }
 
-#Acerca_de h2
+#Acerca_de
 {
     color: #14235f;
 }
 
-#Inicio_sesion h2
-{
-    text-align: center;
-    color: #14235f;
-}
-
-#Registro h2
-{
-    text-align: center;
-    color: #14235f;
-}
-
-#Consultas h2
+#Inicio_sesion,#Registro ,#Consultas,#Atencion_Usuarios, #AU_CrearTicket, #AU_ComentarTicket
 {
     text-align: center;
     color: #14235f;
