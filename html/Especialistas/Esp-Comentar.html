@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="/CSS/bootstrap.min.css">
         <link rel="stylesheet" href="/CSS/fontello.css">
         <link rel="stylesheet" href="/CSS/estilos.css">
-        <link rel="stylesheet" href="/CSS/consultas.css">
+        <link rel="stylesheet" href="/CSS/au-tickets.css">
     </head>
 
     <body>
@@ -20,7 +20,7 @@
                 <label class="icon-menu" for="menu-bar"></label>
                 <nav class="menu">
                     
-                    <a href="#">Inicio</a>
+                    <a href="../Especialistas/Especialistas.html">Inicio</a>
                     <div class="pull-right">
                         <ul class="nav pull-right">
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Tickets <b class="caret"></b></a>
@@ -32,7 +32,7 @@
                             </li>
                         </ul>
                     </div>
-
+                    
                     <a href="../Especialistas/Esp-Asignar.html">Asignar</a>
                     
                     <div class="pull-right">
@@ -40,7 +40,7 @@
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenido @correo <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="divider"></li>
-                                    <li><a href="/html/Login.html"><i class="icon-off"></i> Cerrar sesión</a></li>
+                                    <li><a href="../Login.html"><i class="icon-off"></i> Cerrar sesión</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -53,49 +53,54 @@
                 <img src="/imagenes/banner.PNG">
             </section>
             
-            <section id="Atencion_Usuarios">
+            <section id="AU_ComentarTicket">
                 <div class="contenedor">
-                    <h2 class="center">Bienvenidos al SGMA</h2>
+                    <h2 class="center">Comentar Ticket</h2>
                 </div>
             </section>
             
             <div class="container">
                 <div class="row">
-                    <div class="span12">
-                        <form id="custom-search-form" class="form-search form-horizontal pull-right">
-                            <div class="input-append span12">
-                                <input type="text" class="search-query" placeholder="Número de ticket">
-                                <button type="submit" class="btn"><i class="icon-search"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            
-            <!-------------------Tabla para ver tickets asignados------------------->
-            <div class="container">
-                <div class="row">
-                    <div class="span5">
-                        <table class="table table-striped table-condensed">
-                            <thead>
-                                <tr>
-                                    <th>Account(No. Cuenta)</th>
-                                    <th>Fecha</th>
-                                    <th>Descripción</th>
-                                    <th>Status</th>                                          
-                                </tr>
-                            </thead>   
-                            <tbody>
-                                <tr>
-                                    <td>Nocuenta</td>
-                                    <td>Fecha</td>
-                                    <td>Descripción</td>
-                                    <td><span class="label label-success">Pendiente</span>
-                                    </td>                                       
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <form action="" method="post" class="smart-green">
+                        <h1>Sistema de soporte de tickets
+                            <span>Por favor complete todos los textos en los campos.</span>
+                        </h1>
+                        <label>
+                            <span>No ticket :</span>
+                            <section id="No-ticket">
+                                <div class="col-md-8">
+                                    <select class="form-control" tabindex="-1" aria-hidden="true">
+                                        <option active>Seleccione No ticket</option>
+                                    </select>
+                                </div>
+                            </section>
+                            
+                        </label>
+                        
+                        <label>
+                            <span>No.Cuenta/Trabajador :</span>
+                            <input id="name" type="text" name="name" placeholder="Escriba el No.Cuenta/Trabajador" />
+                        </label>
+   
+                        <label>
+                            <span>Dependencia Universitaria :</span>
+                            <input id="name" type="text" name="name" placeholder="Escriba la dependencia" />
+                        </label>
+    
+                        <label>
+                            <span>Motivo :</span><input id="Subject" type="text" name="Subject" placeholder="Escriba el motivo" />
+                        </label>  
+    
+                        <label>
+                            <span>Comentario :</span>
+                            <textarea id="message" name="message" placeholder="Escriba el comentario"></textarea>
+                        </label>
+
+                        <label>
+                            <span> </span>
+                            <input type="button" class="button" value="Comentar" />
+                        </label>    
+                    </form>
                 </div>
             </div>
         </main>
