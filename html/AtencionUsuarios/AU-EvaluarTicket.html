@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Universidad de Colima</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-------------------CSS y Boostrap------------------->
+        <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="/CSS/fontello.css">
+        <link rel="stylesheet" href="/CSS/estilos.css">
+        <link rel="stylesheet" href="/CSS/au-tickets.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="contenedor">
+                <h1>Sistema gestor de mesa de ayuda</h1>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    
+                    <a href=/html/AtencionUsuarios/AtencionUsuarios.html>Inicio</a>
+                    <div class="pull-right">
+                        <ul class="nav pull-right">
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Tickets <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="divider"></li>
+                                    <li><a href="../AtencionUsuarios/AU-CrearTicket.html"><i class="icon-off"></i>Crear</a></li>
+                                    <li><a href="../AtencionUsuarios/AU-ComentarTicket.html"><i class="icon-off"></i>Comentar</a></li>
+                                    <li><a href="#"><i class="icon-off"></i>Evaluar</a></li>
+                                    <li><a href="../AtencionUsuarios/AU-CerrarTicket.html"><i class="icon-off"></i>Cerrar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <a href="../AtencionUsuarios/AU-AsignarTicket.html">Asignar</a>
+                    
+                    <div class="pull-right">
+                        <ul class="nav pull-right">
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenido @correo <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="divider"></li>
+                                    <li><a href="/html/Login.html"><i class="icon-off"></i> Cerrar sesión</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="banner">
+                <img src="/imagenes/banner.PNG">
+            </section>
+            
+            <section id="AU_EvaluarTicket">
+                <div class="contenedor">
+                    <h2 class="center">Evaluar Ticket</h2>
+                </div>
+            </section>
+            
+            <div class="container">
+                <div class="row">
+                    <form action="" method="post" class="smart-green">
+                        <h1>Sistema de soporte de tickets
+                            <span>Por favor complete todos los textos en los campos.</span>
+                        </h1>
+                        <label>
+                            <span>No ticket :</span>
+                            <section id="No-ticket">
+                                <div class="col-md-8">
+                                    <select class="form-control" tabindex="-1" aria-hidden="true">
+                                        <option active>Seleccione No ticket</option>
+                                    </select>
+                                </div>
+                            </section>
+                            
+                        </label> 
+                        
+                        <label>
+                            <span> </span>
+                            <input type="button" class="button" value="Evaluar" />
+                        </label>   
+                    </form>
+                </div>
+            </div>
+            
+            <tr><td><table width="100%" cellspacing="0" cellpadding="0"><tbody><tr><td class="QuestionDescription"><br><br><br>¿Qúe tan satisfecho estas con el sistema?
+                        <!-- Catch Unterminated HTML Comment --></td></tr></tbody></table></td></tr>
+<tr><td><table class="MatrixTable" width="99%" cellspacing="0" cellpadding="0"><tbody><tr class="SurveyTableHeader"><td width="30%"></td><td id="matrix_header_144685363" class="AnswerText" width="15%" valign="center">Excelente </td><td id="matrix_header_144685364" class="AnswerText newMatrixPadding" width="15%" valign="center">Regular </td><td id="matrix_header_144685365" class="AnswerText newMatrixPadding" width="15%" valign="center">Deficiente</tr><tr class="AltAnswerText" id="qrow_30584584" onmouseover="assignClass('qrow_30584584', 'OptionHover allRoundCorners AnswerText')" onmouseout="assignClass('qrow_30584584', 'AltAnswerText')"><td style="padding:5px 0 5px 5px;" onmouseover="assignClass('qrow_30584584', 'OptionHover allRoundCorners AnswerText')" onmouseout="assignClass('qrow_30584584', 'AltAnswerText')" id="question_header_30584584" width="30%">Solución</td><td id="AnswerCell_144685363" class="AnswerText Pointer" onmouseover="rolloverHighlight(document.getElementById('matrix_header_144685363'), true, 'OptionHover');this.style.borderLeft = '1px solid #ccc';this.style.borderRight = '1px solid #ccc'" onmouseout="rolloverHighlight(document.getElementById('matrix_header_144685363'), false);this.style.border = ''" onclick="var ele = document.getElementById('batteryOption_144685363');ele.click();" align="center" valign="center" height="25"><input name="u_30584584" size="3" value="144685363" id="batteryOption_144685363" onclick="  processElements(ANSWERS_30584584, PROCESSOR_ANSWERTEXT_30584584); if (event) {
+            event.cancelBubble = true;
+            if (event.stopPropagation)
+                event.stopPropagation();
+        }
+        if (this.checked) {
+            assignClass('AnswerCell_144685363', 'AnswerText MatrixOptionHighlight');
+            processElementHighlight('AnswerCell_144685363', true);
+        }
+        event.stopPropagation();
+        " type="RADIO">
+                    </td><td id="AnswerCell_144685364" class="AnswerText Pointer" onmouseover="rolloverHighlight(document.getElementById('matrix_header_144685364'), true, 'OptionHover');this.style.borderLeft = '1px solid #ccc';this.style.borderRight = '1px solid #ccc'" onmouseout="rolloverHighlight(document.getElementById('matrix_header_144685364'), false);this.style.border = ''" onclick="var ele = document.getElementById('batteryOption_144685364');ele.click();" style="" align="center" valign="center" height="25"><input name="u_30584584" size="3" value="144685364" id="batteryOption_144685364" onclick="  processElements(ANSWERS_30584584, PROCESSOR_ANSWERTEXT_30584584); if (event) {
+                                event.cancelBubble = true; if (event.stopPropagation)
+                                    event.stopPropagation();
+                            }
+                            if (this.checked) {
+                                assignClass('AnswerCell_144685364', 'AnswerText MatrixOptionHighlight');
+                                processElementHighlight('AnswerCell_144685364', true);
+                            }
+                            event.stopPropagation();
+                            " type="RADIO">
+                    </td><td id="AnswerCell_144685365" class="AnswerText Pointer" onmouseover="rolloverHighlight(document.getElementById('matrix_header_144685365'), true, 'OptionHover');
+                            this.style.borderLeft = '1px solid #ccc';
+                            this.style.borderRight = '1px solid #ccc'" onmouseout="rolloverHighlight(document.getElementById('matrix_header_144685365'), false);
+                                    this.style.border = ''" onclick="var ele = document.getElementById('batteryOption_144685365');ele.click();" style="" align="center" valign="center" height="25"><input name="u_30584584" size="3" value="144685365" id="batteryOption_144685365" onclick="  processElements(ANSWERS_30584584, PROCESSOR_ANSWERTEXT_30584584);
+                                            if (event) {
+                                                event.cancelBubble = true;
+                                                if (event.stopPropagation)
+                                                    event.stopPropagation();
+                                            }
+                                            if (this.checked) {
+                                                assignClass('AnswerCell_144685365', 'AnswerText MatrixOptionHighlight');
+                                                processElementHighlight('AnswerCell_144685365', true); }   event.stopPropagation();" type="RADIO">
+
+
+                        <script>
+                            var ANSWERS_30584584 = new Array(document.getElementById('AnswerCell_144685363'), document.getElementById('AnswerCell_144685364'), document.getElementById('AnswerCell_144685365'));
+                            var PROCESSOR_ANSWERTEXT_30584584 = function (ele) {
+                                ele.className = 'AnswerText';
+                                processElementHighlight(ele.id, false);
+                            };
+                            $(function () {
+                                highlightDefaultSelect(ANSWERS_30584584);
+                            });
+                        </script>
+                    </td></tr><tr><td colspan="4" class="QuestionError"></td></tr>
+                <tr class="AnswerText" id="qrow_30584585" onmouseover="assignClass('qrow_30584585', 'OptionHover allRoundCorners AnswerText')" onmouseout="assignClass('qrow_30584585', 'AnswerText')"><td style="padding:5px 0 5px 5px;" onmouseover="assignClass('qrow_30584585', 'OptionHover allRoundCorners AnswerText')" onmouseout="assignClass('qrow_30584585', 'AnswerText')" id="question_header_30584585" width="30%">Tiempo de respuesta</td><td id="AnswerCell_144685366" class="AnswerText Pointer" onmouseover="rolloverHighlight(document.getElementById('matrix_header_144685363'), true, 'OptionHover');
+                        this.style.borderLeft = '1px solid #ccc';
+                        this.style.borderRight = '1px solid #ccc'" onmouseout="rolloverHighlight(document.getElementById('matrix_header_144685363'), false);
+                                this.style.border = ''" onclick="var ele = document.getElementById('batteryOption_144685366');
+                                        ele.click();" align="center" valign="center" height="25"><input name="u_30584585" size="3" value="144685366" id="batteryOption_144685366" onclick="  processElements(ANSWERS_30584585, PROCESSOR_ANSWERTEXT_30584585); if (event) {
+                                                    event.cancelBubble = true; if (event.stopPropagation)
+                                                        event.stopPropagation(); }   if (this.checked) {
+                                                    assignClass('AnswerCell_144685366', 'AnswerText MatrixOptionHighlight');   processElementHighlight('AnswerCell_144685366', true); }   event.stopPropagation();" type="RADIO">
+                    </td><td id="AnswerCell_144685367" class="AnswerText Pointer" onmouseover="rolloverHighlight(document.getElementById('matrix_header_144685364'), true, 'OptionHover');
+                            this.style.borderLeft = '1px solid #ccc';
+                            this.style.borderRight = '1px solid #ccc'" onmouseout="rolloverHighlight(document.getElementById('matrix_header_144685364'), false);this.style.border = ''" onclick="var ele = document.getElementById('batteryOption_144685367');
+                                    ele.click();" style="" align="center" valign="center" height="25"><input name="u_30584585" size="3" value="144685367" id="batteryOption_144685367" onclick="  processElements(ANSWERS_30584585, PROCESSOR_ANSWERTEXT_30584585); if (event) {
+                                                event.cancelBubble = true; if (event.stopPropagation)
+                                                    event.stopPropagation();
+                                            }
+                                            if (this.checked) {
+                                                assignClass('AnswerCell_144685367', 'AnswerText MatrixOptionHighlight');
+                                                processElementHighlight('AnswerCell_144685367', true);
+                                            }
+                                            event.stopPropagation();
+                                            " type="RADIO">
+                    </td><td id="AnswerCell_144685368" class="AnswerText Pointer" onmouseover="rolloverHighlight(document.getElementById('matrix_header_144685365'), true, 'OptionHover');
+                            this.style.borderLeft = '1px solid #ccc';
+                            this.style.borderRight = '1px solid #ccc'" onmouseout="rolloverHighlight(document.getElementById('matrix_header_144685365'), false);this.style.border = ''" onclick="var ele = document.getElementById('batteryOption_144685368');
+                                    ele.click();" style="" align="center" valign="center" height="25"><input name="u_30584585" size="3" value="144685368" id="batteryOption_144685368" onclick="  processElements(ANSWERS_30584585, PROCESSOR_ANSWERTEXT_30584585); if (event) {
+                                                event.cancelBubble = true; if (event.stopPropagation)
+                                                    event.stopPropagation(); }
+                                            if (this.checked) {
+                                                assignClass('AnswerCell_144685368', 'AnswerText MatrixOptionHighlight');
+                                                processElementHighlight('AnswerCell_144685368', true); }   event.stopPropagation();" type="RADIO">
+
+
+                        <script>
+                            var ANSWERS_30584585 = new Array(document.getElementById('AnswerCell_144685366'), document.getElementById('AnswerCell_144685367'), document.getElementById('AnswerCell_144685368'));
+                            var PROCESSOR_ANSWERTEXT_30584585 = function (ele) {
+                                ele.className = 'AnswerText';
+                                processElementHighlight(ele.id, false);
+                            };
+                            $(function () {
+                                highlightDefaultSelect(ANSWERS_30584585);
+                            });
+                        </script>
+                    </td></tr><tr><td colspan="4" class="QuestionError"></td></tr>
+                <tr class="AltAnswerText" id="qrow_30584586" onmouseover="assignClass('qrow_30584586', 'OptionHover allRoundCorners AnswerText')" onmouseout="assignClass('qrow_30584586', 'AltAnswerText')"><td style="padding:5px 0 5px 5px;" onmouseover="assignClass('qrow_30584586', 'OptionHover allRoundCorners AnswerText')" onmouseout="assignClass('qrow_30584586', 'AltAnswerText')" id="question_header_30584586" width="30%">Atención del especialista</td><td id="AnswerCell_144685369" class="AnswerText Pointer" onmouseover="rolloverHighlight(document.getElementById('matrix_header_144685363'), true, 'OptionHover');this.style.borderLeft = '1px solid #ccc';
+                        this.style.borderRight = '1px solid #ccc'" onmouseout="rolloverHighlight(document.getElementById('matrix_header_144685363'), false);this.style.border = ''" onclick="var ele = document.getElementById('batteryOption_144685369');ele.click();" align="center" valign="center" height="25"><input name="u_30584586" size="3" value="144685369" id="batteryOption_144685369" onclick="  processElements(ANSWERS_30584586, PROCESSOR_ANSWERTEXT_30584586);
+                                if (event) {
+                                    event.cancelBubble = true;
+                                    if (event.stopPropagation)
+                                        event.stopPropagation();
+                                }
+                                if (this.checked) {
+                                    assignClass('AnswerCell_144685369', 'AnswerText MatrixOptionHighlight');
+                                    processElementHighlight('AnswerCell_144685369', true);
+                                }
+                                event.stopPropagation();
+                                " type="RADIO">
+                    </td><td id="AnswerCell_144685370" class="AnswerText Pointer" onmouseover="rolloverHighlight(document.getElementById('matrix_header_144685364'), true, 'OptionHover');
+                            this.style.borderLeft = '1px solid #ccc';
+                            this.style.borderRight = '1px solid #ccc'" onmouseout="rolloverHighlight(document.getElementById('matrix_header_144685364'), false);
+                                    this.style.border = ''" onclick="var ele = document.getElementById('batteryOption_144685370');
+                                            ele.click();" style="" align="center" valign="center" height="25"><input name="u_30584586" size="3" value="144685370" id="batteryOption_144685370" onclick="  processElements(ANSWERS_30584586, PROCESSOR_ANSWERTEXT_30584586);
+                                                    if (event) {
+                                                        event.cancelBubble = true;
+                                                        if (event.stopPropagation)
+                                                            event.stopPropagation();
+                                                    }
+                                                    if (this.checked) {
+                                                        assignClass('AnswerCell_144685370', 'AnswerText MatrixOptionHighlight');   processElementHighlight('AnswerCell_144685370', true); }   event.stopPropagation();" type="RADIO">
+                    </td><td id="AnswerCell_144685371" class="AnswerText Pointer" onmouseover="rolloverHighlight(document.getElementById('matrix_header_144685365'), true, 'OptionHover');this.style.borderLeft = '1px solid #ccc';this.style.borderRight = '1px solid #ccc'" onmouseout="rolloverHighlight(document.getElementById('matrix_header_144685365'), false);this.style.border = ''" onclick="var ele = document.getElementById('batteryOption_144685371');
+                            ele.click();" align="center" valign="center" height="25"><input name="u_30584586" size="3" value="144685371" id="batteryOption_144685371" onclick="  processElements(ANSWERS_30584586, PROCESSOR_ANSWERTEXT_30584586); if (event) {
+                                        event.cancelBubble = true; if (event.stopPropagation)
+                                            event.stopPropagation(); }   if (this.checked) {
+                                        assignClass('AnswerCell_144685371', 'AnswerText MatrixOptionHighlight');   processElementHighlight('AnswerCell_144685371', true); }   event.stopPropagation();" type="RADIO">
+
+
+                        <script>
+                            var ANSWERS_30584586 = new Array(document.getElementById('AnswerCell_144685369'), document.getElementById('AnswerCell_144685370'), document.getElementById('AnswerCell_144685371'));
+                            var PROCESSOR_ANSWERTEXT_30584586 = function (ele) {
+                                ele.className = 'AnswerText';
+                                processElementHighlight(ele.id, false);
+                            };
+                            $(function () {
+                                highlightDefaultSelect(ANSWERS_30584586);
+                            });
+                        </script>
+                    </td></tr><tr><td colspan="4" class="QuestionError"></td></tr>
+            </tbody></table></td></tr>
+
+            
+        </main>
+
+        <footer>
+            <div id="contacto" class="contenedor2">
+                <p>Derechos Reservados 2013-2017 Universidad de Colima &copy; 2012</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
